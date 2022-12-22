@@ -1,11 +1,15 @@
-import React from 'react';
-import UserList from './features/users/UserList';
-
+import React from "react";
+import UserList from "./features/users/UserList";
 
 function App() {
   return (
-    <div className=''><UserList /></div>
-   );
+    <div className=" container mx-auto px-2 max-w-5xl pt-10 md:pt-32">
+      <h1 className="text-center font-bold text-2xl text-gray-500 my-2">
+        CRUD w/ RTK TS TWCSS 
+     </h1>
+      <UserList />
+    </div>
+  );
 }
 
 export default App;
