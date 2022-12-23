@@ -3,12 +3,11 @@ import React from "react";
 interface textProps {
   label: string;
   inputProps?: any;
-  onChange?:  any;
+  onChange?: any;
   value?: string;
 }
 const TextField = ({ label, inputProps, onChange, value }: textProps) => {
-    return (
-      
+  return (
     <div className="flex flex-col">
       <label className="mb-2 text-base text-gray-800 ">{label}</label>
       <input
